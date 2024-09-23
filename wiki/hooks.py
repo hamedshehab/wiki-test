@@ -110,6 +110,15 @@ after_migrate = ["wiki.wiki.doctype.wiki_page.search.rebuild_index_in_background
 fixtures = [
     {
         "dt": "Wiki Page",
+        "dt": "Wiki Feedback",
+        "dt": "Wiki Settings",
+        "dt": "Wiki Group Item",
+        "dt": "Wiki Space",
+        "dt": "Wiki Page Patch",
+        "dt": "Wiki Page Revision",
+        "dt": "Wiki Sidebar",
+        "dt": "Wiki Page Revision Item",
+        "dt": "Migrate To Wiki",
     }
 ]
 
